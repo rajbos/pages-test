@@ -12,12 +12,11 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 {% endfor %}
 
 
-
+<!--
 <a
         class="tag"
         href="/tag/{{ tag }}"
         title="{{ site.data.tagDescriptions[tag] }}">
         {{ tag }}
-    </a>
-
-
+</a>
+-->
