@@ -17,3 +17,14 @@ defaults:
     values:
       is_post: false
       layout: default
+
+
+giscus:
+  repo:                "rajbos/pages-test"
+  repo-id:             "449695114"
+  category:            "Comments"
+  category-id:         "[your-category-id]"
+  mapping:             "url"
+  reaction-enabled:    "1"
+  theme:               "dark_dimmed"
+  crossorigin:         "anonymous"
