@@ -1,5 +1,7 @@
 theme: jekyll-theme-midnight
 
+site.baseurl: "devopsjournal.io/pages-test"
+
 defaults:
   -
     scope:
@@ -7,9 +9,10 @@ defaults:
       path: _posts
     values:
       is_post: true
-      layout: post
+      layout: post      
       #permalink: /blog/:categories/:title/
-      permalink: /pages-test/blog/:year/:month/:day/:title/
+      #permalink: /pages-test/blog/:year/:month/:day/:title/
+      permalink: /blog/:year/:month/:day/:title/
   -
     scope:
       type: pages
